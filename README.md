@@ -57,8 +57,7 @@ Socket programming finds applications in various domains, including web developm
 
 client:
 ```
-# Developed by:Joshua Daniel A
-# Register number:212225040161
+
 import socket  
 s=socket.socket()  
 s.bind(('localhost',8000))  
@@ -78,8 +77,7 @@ while True:
 
 Server:
 ```
-# Developed by:Joshua Daniel A
-# Register number:212225040161
+
 import socket
 s=socket.socket()  
 s.connect(('localhost',8000))  
@@ -87,10 +85,8 @@ while True:
     print(s.recv(1024).decode()) 
     s.send("Acknowledgement Recived".encode())
 ```
-##Output:
+## Output:
 
-Client:
-<img width="1600" height="900" alt="WhatsApp Image 2026-05-18 at 2 14 31 PM" src="https://github.com/user-attachments/assets/bf7f9228-d69f-4a4a-ac57-d1bd4d1307ca" />
 
 
 ## Result:
